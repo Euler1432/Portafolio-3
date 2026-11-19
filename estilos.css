@@ -367,9 +367,6 @@ main {
   .galeria {
     grid-template-columns: repeat(3, 1fr);
   }
-.galeria {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .proyecto {
