@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Fabrizio CH</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header id="inicio" class="cabecera">
+    <nav class="menu">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <span class="badge-hero">Portafolio Web</span>
+      <h1>Fabrizio CH</h1>
+      <p>Estudiante de Ingeniería de Software con IA | SENATI</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre-mi" class="tarjeta">
+      <h2>Sobre mí</h2>
+      <div class="perfil-card">
+        <h3>Fabrizio CH</h3>
+        <p>Estudiante de SENATI en segundo ciclo, aprendiendo habilidades con HTML5 y CSS3. Me enfoco en practicar maquetación limpia, diseño adaptable a distintas pantallas y publicar mis avances en GitHub.</p>
+        <div class="acciones">
+          <a href="#contacto" class="btn btn-primario">Contáctame</a>
+          <a href="#proyectos" class="btn btn-secundario">Ver proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="tarjeta">
+      <h2>Habilidades</h2>
+      <div class="grid-2">
+        <span class="chip">HTML5 semántico</span>
+        <span class="chip">CSS3 adaptable</span>
+        <span class="chip">Flexbox y Grid</span>
+        <span class="chip">Git y GitHub</span>
+      </div>
+    </section>
+
+    <section id="servicios" class="tarjeta">
+      <h2>Servicios</h2>
+      <div class="grid-2">
+        <article class="mini-card">
+          <h3>Páginas web</h3>
+          <p>Sitios informativos claros y ordenados.</p>
+        </article>
+        <article class="mini-card">
+          <h3>Diseño adaptable</h3>
+          <p>Páginas que se ven bien en celular y PC.</p>
+        </article>
+        <article class="mini-card">
+          <h3>Mantenimiento</h3>
+          <p>Actualización de textos, imágenes y estilos.</p>
+        </article>
+        <article class="mini-card">
+          <h3>Publicación web</h3>
+          <p>Despliegue en GitHub Pages listo para compartir.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="tarjeta">
+      <h2>Proyectos</h2>
+      <div class="galeria">
+        <article class="proyecto">
+          <span class="etiqueta">Nuevo</span>
+          <img src="img/portafolio png.jpg" alt="Vista previa de portafolio">
+          <h3>Proyecto 1</h3>
+          <p>Catálogo de figuras con tarjetas adaptables.</p>
+        </article>
+        <article class="proyecto">
+          <img src="img/propaganda.png" alt="Vista previa de propaganda">
+          <h3>Proyecto 2</h3>
+          <p>Diseño enfocado en marketing y propaganda visual.</p>
+        </article>
+        <article class="proyecto">
+          <img src="img/tarjeta presentacion.jpg" alt="Vista previa de tarjeta de presentación">
+          <h3>Proyecto 3</h3>
+          <p>Portafolio adaptable publicado en GitHub Pages.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="formacion" class="tarjeta">
+      <h2>Formación</h2>
+      <table class="tabla-formacion">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Estudio</th>
+            <th>Institución</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026</td>
+            <td>Desarrollo Frontend Web</td>
+            <td>SENATI</td>
+          </tr>
+          <tr>
+            <td>2025</td>
+            <td>Ingeniería de Software con IA</td>
+            <td>SENATI</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto" class="tarjeta">
+      <h2>Contacto</h2>
+      <form class="formulario" action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+
+        <button type="submit" class="btn btn-primario">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>&copy; 2026 Fabrizio CH</p>
+  </footer>
+
+  <a href="#inicio" class="volver-arriba" aria-label="Volver arriba">&uarr;</a>
+
+</body>
+</html>
