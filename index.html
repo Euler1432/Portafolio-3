@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Fabrizio CH</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="inicio">
+  <header class="encabezado">
+    <nav class="menu-nav" aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+      <button type="button" id="btn-modo-oscuro" class="btn-tema">Modo oscuro</button>
+    </nav>
+
+    <div class="hero">
+      <span class="badge">Portafolio Web</span>
+      <h1>Fabrizio CH</h1>
+      <p>Estudiante de Ingeniería de Software con IA | SENATI</p>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="secciones-grid">
+      <section id="sobre-mi" class="tarjeta">
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de Ingeniería de Software con IA en SENATI y me enfoco en crear páginas web limpias, ordenadas y adaptables a distintos tamaños de pantalla.</p>
+        <p id="texto-extra" class="texto-oculto">Actualmente sigo reforzando HTML5, CSS3, JavaScript y control de versiones en GitHub para construir proyectos funcionales y bien estructurados.</p>
+        <button type="button" id="btn-leer-mas" class="btn-leer">Leer más</button>
+      </section>
+
+      <section id="habilidades" class="tarjeta">
+        <h2>Habilidades</h2>
+        <p>Estructura semántica en HTML5, diseño adaptable con CSS3, Flexbox, CSS Grid, control de versiones en GitHub y despliegue en GitHub Pages.</p>
+      </section>
+
+      <section id="servicios" class="tarjeta">
+        <h2>Servicios</h2>
+        <p>Maquetación de portafolios personales, tarjetas digitales, galerías visuales y sitios informativos responsivos listos para publicarse.</p>
+      </section>
+
+      <section id="formacion" class="tarjeta">
+        <h2>Formación</h2>
+        <p>Formación en Ingeniería de Software con IA en SENATI, fortaleciendo bases de desarrollo web, organización de archivos y buenas prácticas.</p>
+      </section>
+    </div>
+
+    <section id="proyectos" class="tarjeta">
+      <h2>Proyectos</h2>
+      <div class="galeria-grid">
+        <article class="item-proyecto">
+          <div class="marco-img">
+            <img src="img/portafolio.jpg" alt="Vista previa del proyecto Portafolio Web">
+          </div>
+          <h3>Portafolio Web</h3>
+          <p>Sitio adaptable con HTML5 y CSS3 publicado en GitHub Pages.</p>
+        </article>
+
+        <article class="item-proyecto">
+          <div class="marco-img">
+            <img src="img/tarjetapresentacion.jpg" alt="Vista previa del proyecto Tarjeta de presentación">
+          </div>
+          <h3>Tarjeta de presentación</h3>
+          <p>Diseño visual enfocado en tipografía, orden y contraste.</p>
+        </article>
+
+        <article class="item-proyecto">
+          <div class="marco-img">
+            <img src="img/propaganda.png" alt="Vista previa del proyecto Pieza promocional">
+          </div>
+          <h3>Pieza promocional</h3>
+          <p>Imagen integrada dentro de la galería de proyectos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="tarjeta contacto-box">
+      <h2>Contacto</h2>
+      <p>Repositorio y sitio publicado en GitHub bajo el usuario <strong>euler1432</strong>.</p>
+      <div class="acciones-contacto">
+        <a class="btn-enlace" href="https://github.com/euler1432/Portafolio-3" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        <a class="btn-volver" href="#inicio">Volver arriba</a>
+      </div>
+    </section>
+  </main>
+
+  <a class="btn-subir-flotante" href="#inicio" aria-label="Volver arriba">↑ Arriba</a>
+
+  <footer class="pie">
+    <p>Fabrizio CH — Portafolio adaptable HTML5 &amp; CSS3</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
